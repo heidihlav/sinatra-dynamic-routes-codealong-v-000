@@ -19,7 +19,7 @@ class App < Sinatra::Base
     "Goodbye, #{@user_name}."
   end
 
-  get "/muliply/:num1/:num2" do
+  get "/multiply/:num1/:num2" do
     params[:id]
     binding.pry
   end
