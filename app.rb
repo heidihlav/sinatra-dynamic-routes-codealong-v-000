@@ -20,7 +20,8 @@ class App < Sinatra::Base
   end
 
   get "/muliply/:num1/:num2" do
-    
+    params[:id] * params[:id]
+
   end
 
 end
