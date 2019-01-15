@@ -21,7 +21,7 @@ class App < Sinatra::Base
 
   get "/muliply/:num1/:num2" do
     params[:id] * params[:id]
-
+    binding.pry
   end
 
 end
